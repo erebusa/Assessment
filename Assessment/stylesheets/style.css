@@ -1,0 +1,116 @@
+body{
+	background-color: #454545;
+}
+.container{
+	margin-left: 17%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+
+}
+#txt{
+	background-color: black;
+	margin: auto;
+}
+p{
+	text-align: left;
+	color: white;
+	margin-left: 60px;
+	width: 270px;
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+#p2{
+	margin-left: 230px;
+}
+h2{
+	text-align: center;
+	font-size: 275%;
+	text-transform: uppercase;
+}
+.parallax{
+	background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+}
+.parallax-inner{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+#img{
+	margin-left: 25%;
+	margin-top: 10%;
+}
+#txt2{
+	background-color: green;
+}
+#ptxt{
+	margin-top: 9%;
+	margin-left: 5%;
+}
+footer{
+	background-color: #737373;
+	text-align: center;
+}
+
+@media screen and (max-width: 1199px){
+	#p1{
+	margin-left: 30px;
+}
+	#p2{
+	margin-left: 180px;
+}
+#ptxt{
+	margin-left: -5%;
+	margin-right: 10%;
+}
+}
+@media screen and (max-width: 991px){
+	#p1{
+	width: 200px;
+}
+	#p2{
+	margin-left: 30px;
+	width: 200px;
+}
+#ptxt{
+	width: 85px;
+	margin-left: -20%;
+	margin-right: 30%;
+}
+#img{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+#colum{
+	width: 200px;
+	margin-left: 100px;
+	margin-top: 5%;
+}
+}
+@media screen and (max-width: 767px){
+	.container{
+		margin: auto;
+	}
+	#p1{
+	margin-top: 5%;
+	margin-left: 10%;
+}
+	#p2{
+	margin-left: 400px;
+	margin-top: -60%;
+}
+	#txt{
+	height: 280px;
+}
+	#img{
+	margin-left: 50%;
+	margin-top: -30%;
+}
+	#colum{
+	margin-left: 200px;
+	margin-bottom: -10%;
+}
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 768px;
+	}
+}
